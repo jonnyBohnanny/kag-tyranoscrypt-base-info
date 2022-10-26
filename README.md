@@ -72,6 +72,9 @@ Command example:
 for /r "C:\Source\Folder\Root" %a in (*.*) do mogrify -resample 72 -resize 700x700 -format png "%~a"
 ```
 
+### Fixed Width
+Use `-resize 100x` to resize images to 100 pixels in width while maintaining the height's aspect ratio.
+
 Used to resize / crop images in bulk on the command line.
 
 ### Example Bulk Resize
