@@ -13,6 +13,7 @@ This document was created to help facilitate collaboration on KAG / Tryranoscryp
 * Adobe Background Remover
 * Gimp
 * Chrome / Chromium
+* imagemagic
 
 # How to Make Stuff
 
@@ -55,6 +56,25 @@ Example using Jonny as a username:
 ```
 Start-Process "C:\Users\Jonny\AppData\Local\Chromium\Application\chrome.exe" "--allow-file-access-from-files"
 ```
+
+## Imagemagic
+<https://imagemagick.org/script/download.php#windows>
+<file:///C:/Program%20Files/ImageMagick-7.1.0-Q16-HDRI/index.html>
+
+### Basic Example
+Command example:
+```
+"C:\Program Files\ImageMagick-7.1.0-Q16-HDRI\magick.exe" mogrify -resize 512x768 *.png
+```
+
+### Recursive Example
+```
+for /r "C:\Source\Folder\Root" %a in (*.*) do mogrify -resample 72 -resize 700x700 -format png "%~a"
+```
+
+Used to resize / crop images in bulk on the command line.
+
+### Example Bulk Resize
 
 ## Midjourney
 Midjourney is a cool place to generate character and background art.
