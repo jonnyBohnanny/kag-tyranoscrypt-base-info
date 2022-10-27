@@ -64,12 +64,18 @@ Start-Process "C:\Users\Jonny\AppData\Local\Chromium\Application\chrome.exe" "--
 ### Basic Example
 Command example:
 ```
-"C:\Program Files\ImageMagick-7.1.0-Q16-HDRI\magick.exe" mogrify -resize 512x768 *.png
+"C:\Program Files\ImageMagick-7.1.0-Q16-HDRI\magick.exe" mogrify -resize 640x960 *.png
+"C:\Program Files\ImageMagick-7.1.0-Q16-HDRI\magick.exe" mogrify -resize 640x *.png
 ```
 
 ### Recursive Example
 ```
 for /r "C:\Source\Folder\Root" %a in (*.*) do mogrify -resample 72 -resize 700x700 -format png "%~a"
+```
+
+## Powershell Bulk Rename
+```
+Get-ChildItem -File -Recurse | % { Rename-Item -Path $_.PSPath -NewName $_.Name.replace("My project (1).png","face_5.png")}
 ```
 
 ### Fixed Width
