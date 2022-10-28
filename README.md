@@ -9,7 +9,6 @@ This document was created to help facilitate collaboration on KAG / Tryranoscryp
 * Visual Studio Code
 * Midjourney
 * Gituhb
-* Faceapp
 * Adobe Background Remover
 * Gimp
 * Chrome / Chromium
@@ -108,7 +107,7 @@ Midjourney is a cool place to generate character and background art.
 * `[image URL] [text prompt]` with no weights specified results in a 20% image(s) / 80% text generation.
 * `[image URL] [text prompt 1] --iw 1` Results in a 50% image(s) / 50% text generation.
 * `[image URL] [text prompt 1]::2 [text prompt 2]::3 --iw 1` results in a 1/6=17% image(s) , 2/6= 33% text1 , 3/6 = 50% text2.
-```
+
 
 #### My Examples
 ### Best
