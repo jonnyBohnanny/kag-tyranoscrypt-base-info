@@ -29,11 +29,16 @@ for them but it works.
 
 
 ## KAG / Tyranoscrypt
+### Some Examples
+[see this page for examples](kag_examples.md)
 ### Tiny Gotacha
 You have to change the language to Japanese -> English in the side navigation bar.
 
 Language / syntax reference for KAG3
-<https://kirikirikag-sourceforge-net.translate.goog/contents/index.html?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=en&_x_tr_pto=wapp>
+<https://kirikirikag-sourceforge-net.translate.goog/contents/index.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp>
+
+<https://evanburchard.github.io/tyranoscript/docs.html>
+
 ### KAG Important Notes / Gotchas 
 #### Background Scale / Crop
 KAG does not seem to have a way to resize backgrounds - so make sure you crop scale as needed.
