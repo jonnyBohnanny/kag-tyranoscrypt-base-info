@@ -111,12 +111,15 @@ Midjourney is a cool place to generate character and background art.
 
 #### My Examples
 ### Best
-
+```
 /imagine prompt:dr. ghul, open eyes, standing in front of a pink gate::1.5 handsome face, wearing fine suit jacket on a bright day, HD, detailed, ultra-realistic, 8k, cinematic, looking directly at camera::1.6, centered::0.3 --ar 5:8 --upbeta --s 1250
-
-
+```
+```
 /imagine prompt:dudeovergame, cool guy, open eyes, standing in front of a purple gate::1.5 handsome face, wearing fine suit jacket on a bright day, HD, detailed, ultra-realistic, 8k, cinematic, looking directly at camera::1.6, centered::0.3 --ar 5:8 --upbeta --s 1250
-
+```
+```
 /imagine prompt:old man cooper smith, standing in front of a rainbow gate::1.5 serious face, wearing fine suit jacket on a bright day, HD, detailed, ultra-realistic, 8k, cinematic, looking directly at camera::1.6, centered::0.3 --ar 5:8 --upbeta --s 1250
-
+```
+```
 Dale Blake, standing in front of a black gate::1.5 serious face holding a sandwich, wearing fine shorts on a bright day, HD, detailed, ultra-realistic, 8k, cinematic, looking directly at camera::1.6, centered::0.3 --ar 5:8 --upbeta --s 1250
+```
