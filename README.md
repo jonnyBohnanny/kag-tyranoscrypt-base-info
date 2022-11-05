@@ -72,7 +72,7 @@ Command example:
 "C:\Program Files\ImageMagick-7.1.0-Q16-HDRI\magick.exe" mogrify -resize 640x *.png
 ```
 
-### Recursive Example
+### Recursive Example (not used as much ...)
 ```
 for /r "C:\Source\Folder\Root" %a in (*.*) do mogrify -resample 72 -resize 640x -format png "%~a"
 ```
