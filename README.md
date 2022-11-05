@@ -74,7 +74,7 @@ Command example:
 
 ### Recursive Example
 ```
-for /r "C:\Source\Folder\Root" %a in (*.*) do mogrify -resample 72 -resize 700x700 -format png "%~a"
+for /r "C:\Source\Folder\Root" %a in (*.*) do mogrify -resample 72 -resize 640x -format png "%~a"
 ```
 
 ## Powershell Bulk Rename
